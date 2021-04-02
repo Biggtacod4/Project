@@ -74,25 +74,39 @@ p {
     font-size: 17px;
     line-height: 1.3;
 }
-.menu{
-list-style:none;
-    font-family:sans-serif
-    position:absolute;
-    top:10px
-        right:30px;
-    z-index:10
-        cursor:pointer;}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif position:absolute;
+    top: 10px right:30px;
+    z-index: 10 cursor:pointer;
+}
+
 .links {
     float: left;
-    color:coral;
+    color: coral;
     padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
     padding-bottom: 5px;
-    font-family:fantasy;
+    font-family: fantasy;
     font-size: 20px;
 }
 
 .links:hover {
-    background-color:blue;
+    background-color: blue;
+
+
+    a {
+        text-decoration: none;
+        color: mediumvioletred;
+    }
+
+    article:hover {
+        color: coral;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
 }
